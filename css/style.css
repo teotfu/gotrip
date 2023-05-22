@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    background: #3E8989;
+    padding: 32px 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menu__item {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    padding-bottom: 5px;
+    border-radius: 2px solid transparent;
+}
+
+.menu__item:hover {
+    border-bottom:  2px solid #ffffff;
+}
+
+.search-bar {
+    height: 35px;
+    padding-left: 20px;
+    width: 216px;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+.search-bar::placeholder {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+}
+
+.search-button {
+    width: 74px;
+    height: 35px;
+    background: #295E5E;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    padding: 9px 14px;
+    font-family: Rubik;
+    color: #FFFFFF;
+    margin-left: -4px;
+
+}
+
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    background: url(../img/pic.jpg) no-repeat center/cover;
+    height: 800px;
+}
+
+.banner__wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner__p {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.banner__button {
+    padding: 14px 78px;
+    background: #B4436C;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    transition: .2s ease;
+}
+
+.banner__button:hover {
+    background: #ffffff;
+    color: #B4436C;
+}
+
+.aboutus__tittle {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #3E8989;
+
+}
+
+.aboutus__content {
+    display: flex;
+    gap: 20px;
+}
+
+.content__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content__text1 {
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+color: #000000;
+}
+
+.catalog__tittle {
+    text-align: center;
+    margin-top: 97px;
+    margin-bottom: 53px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #3E8989;
+}
+
+.catalog__content {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.content__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 263px;
+    height: 300px;
+    background: #EFEFEF;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-name {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    transition: .2s ease;
+}
+
+.card-name:hover {
+    color: #B4436C;
+}
+
+.contacts__tittle {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #3E8989;
+    margin-bottom: 50px;
+}
+
+.contacts__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #000000;
+}
+
+.contacts__desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__content {
+    display: flex;
+    gap: 388px;
+    align-items: flex-end;
+    margin-bottom: 104px;
+
+    
+}
+
+.connections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tel {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #000000;
+}
+
+.footer {
+    background: #3E8989;
+    height: 150px;
+}
+
+.f-nav__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 59px;
+    padding-top: 40px;
+}
+
+.rigts {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+}
